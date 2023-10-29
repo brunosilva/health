@@ -21,7 +21,9 @@ Project to IMC Calculator - mobile
 
 ## Components
 
-- ` <View>`javascript just to show something in the screen
+- ` <Text>` Render a new text
+- ` <View>` Just to show something in the screen
+- ` <TouchableOpacity>` Create a button with effect after clicking it.
 
 
 ## StyleSheet
@@ -51,7 +53,7 @@ After, import on your `index.js`.
   import styles from "./style";
 
   ...
-  
+
   <View style={styles.boxTitle}>
     <Text style={styles.textTitle}>Health 2.0</Text>
   </View>
