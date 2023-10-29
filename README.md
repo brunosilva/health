@@ -22,8 +22,9 @@ Project to IMC Calculator - mobile
 ## Components
 
 - ` <Text>` Render a new text
+- ` <TextInput>` Create a new field to input information
 - ` <View>` Just to show something in the screen
-- ` <TouchableOpacity>` Create a button with effect after clicking it.
+- ` <TouchableOpacity>` Create a button with effect after clicking it
 
 
 ## StyleSheet
