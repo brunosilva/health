@@ -26,6 +26,24 @@ Project to IMC Calculator - mobile
 - ` <View>` Just to show something in the screen
 - ` <TouchableOpacity>` Create a button with effect after clicking it
 
+## API's
+
+- ` Vibration` actived vibration when call it ` Vibration.vibrate()`
+- ` Share` share with ex.: Whatsapp
+  ```js
+    const onShare = async () => {
+      const result = await Share.share({
+        message: `Meu imc hoje é: ${props.resultImc}`
+      })
+    }
+  ```
+- ` Pressable` is possible clickable and with an other api ` keyboard` you can hide the keyboard
+  ```js
+    <Pressable onPress={Keyboard.dismiss} ...>
+      ...
+    </Pressable>
+  ```
+
 
 ## StyleSheet
 
