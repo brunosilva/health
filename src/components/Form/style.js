@@ -11,6 +11,9 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 30,
     marginTop: 30
   },
+  rowElementForm: {
+    marginBottom: 15,
+  },
   form: {
     width: "100%",
     height: "auto",
@@ -28,6 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f6f6f6",
     height: 40,
     margin: 12,
+    marginBottom: 0,
     paddingLeft: 10,
   },
   buttonCalculator: {
@@ -45,6 +49,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "#ffffff",
 
+  },
+  errorMessage: {
+    fontSize: 12,
+    color: "#ff0043",
+    fontWeight: "bold",
+    paddingLeft: 20,
   }
 });
 
