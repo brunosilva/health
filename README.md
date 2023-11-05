@@ -19,6 +19,11 @@ Project to IMC Calculator - mobile
 
 
 
+## App screenshot
+https://github.com/brunosilva/health/issues/1#issue-1977908691
+
+
+
 ## Components
 
 - ` <Text>` Render a new text
