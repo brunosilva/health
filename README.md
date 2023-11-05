@@ -21,6 +21,8 @@ Project to IMC Calculator - mobile
 
 ## App screenshot
 https://github.com/brunosilva/health/issues/1#issue-1977908691
+https://github.com/brunosilva/health/issues/2#issue-1977909401
+https://github.com/brunosilva/health/issues/3#issue-1977909562
 
 
 
