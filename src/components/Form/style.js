@@ -50,6 +50,10 @@ const styles = StyleSheet.create({
     color: "#ff0043",
     fontWeight: "bold",
     paddingLeft: 20,
+  },
+  showResultImc: {
+    width: "100%",
+    height: "50%",
   }
 });
 
