@@ -25,6 +25,25 @@ Project to IMC Calculator - mobile
 - ` <TextInput>` Create a new field to input information
 - ` <View>` Just to show something in the screen
 - ` <TouchableOpacity>` Create a button with effect after clicking it
+- ` <FlatList>` Render just data in view
+  ```js
+    <FlatList
+      style={style.listImc}
+      data={imcList.reverse()}
+      renderItem={({item}) => {
+        return (
+          <Text style={style.resultImcItem}>
+            <Text style={style.textResultItemList}>Resultado IMC: </Text>
+            {item.imc}
+          </Text>
+        )
+      }}
+      keyExtractor={(item) => {item.id}}
+    />
+  ```
+
+
+
 
 ## API's
 
