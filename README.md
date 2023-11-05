@@ -47,7 +47,7 @@ Project to IMC Calculator - mobile
 
 ## StyleSheet
 
-Define the new file stylesheet with Css-in-Js
+Define the new file stylesheet with Css-in-Js, name like ` style.js` and the code here always have be camelCase pattern syntax.
 ```js
 import { StyleSheet } from 'react-native';
 
