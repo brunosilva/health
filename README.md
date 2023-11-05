@@ -27,6 +27,9 @@ Project to IMC Calculator - mobile
 - ` <TouchableOpacity>` Create a button with effect after clicking it
 - ` <FlatList>` Render just data in view
   ```js
+    // data: array of data (reverse to render descending order)
+    // renderItem: create formatted text to display
+    // keyExtractor: unique key of list item
     <FlatList
       style={style.listImc}
       data={imcList.reverse()}
